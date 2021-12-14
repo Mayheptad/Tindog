@@ -1,0 +1,186 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#head-section {
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat-Black";
+}
+
+.row .col-lg-6 h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.brand-name {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#head-section .space-top-bottom-left-right {
+    padding: 3% 15% 5%;
+}
+
+
+#product-hype .space-top-bottom-left-right {
+    padding: 5% 15%;
+    /*before its was padding:7% 15%;  */
+}
+
+.space-bottom {
+    margin-bottom: 2.5rem;
+    padding: 0;
+}
+
+/* nav item link styling */
+.nav-item .nav-link {
+    margin: 0 18px;
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* button styling */
+.col-lg-6 button {
+    margin: 5% 3% 5% 0;
+}
+
+.tindogiphoneimage {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 25%
+}
+
+#product-hype {
+    background-color: white;
+    position: relative;
+}
+
+
+#product-hype h3 {
+    font-family: "Montserrat-Bold";
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+#product-hype p {
+    color: #8f8f8f;
+}
+
+.hype {
+    text-align: center;
+    padding: 5%;
+}
+
+#product-hype span {
+    color: #ef8172;
+    font-size: 4.5rem;
+}
+
+#product-hype span:hover {
+    color: #ff4c68;
+}
+
+#testimonial {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#testimonial h2 {
+    font-family: "Montserrat-Black";
+    font-size: 2.5rem;
+    line-height: 1.3;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    margin: 10px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+#press img {
+    width: 15%;
+    margin: 20px 20px;
+}
+
+#testimonial .space-top-bottom-left-right {
+    padding: 7% 15%;
+}
+
+#pricing .space-top-bottom-left-right {
+    padding: 1% 15%;
+    /*before it is padding 7% 15% */
+}
+
+#pricing {
+    padding: 3.25rem 6.25rem;
+}
+
+#pricing-card-space-around {
+    padding: 2% 2%;
+}
+
+.center-stuffs {
+    text-align: center;
+}
+
+#download {
+    background-color: #FF4C68;
+}
+
+#download h1 {
+    color: white;
+    font-weight: bolder;
+    line-height: 1.5;
+     font-size: 3.5rem; 
+}
+
+#download .space-top-bottom-left-right {
+    padding: 7% 15% 2%;
+}
+
+#download button {
+    margin: 3%;
+}
+
+#contact {
+    background-color: #fff;
+    text-align: center;
+    padding: 3%;
+}
+
+#contact div.social-icons a {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+#contact p {
+    color: #8f8f8f;
+}
+
+
+@media (max-width:992px) {
+    .tindogiphoneimage {
+        position: static;
+        transform: none;
+    }
+
+    #head-section {
+        text-align: center;
+    }
+}
